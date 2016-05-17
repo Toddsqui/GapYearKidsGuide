@@ -1,0 +1,36 @@
+// http://codepen.io/catcode/
+
+$(document).ready(function(){
+		$('.sprice:nth-child(1)').hover(function(){
+			$('.s-grey').css('background-color','#656d7a');
+			$('.s-grey').css('color','#fff');
+		},
+		function(){
+			$('.s-grey').css('background-color','#fff');
+			$('.s-grey').css('color','#646c77');
+		});
+		$('.sprice:nth-child(2)').hover(function(){
+			$('.s-blue').css('background-color','#5f9ced');
+			$('.s-blue').css('color','#fff');
+		},
+		function(){
+			$('.s-blue').css('background-color','#fff');
+			$('.s-blue').css('color','#5f9ced');
+		});	
+		$('.sprice:nth-child(3)').hover(function(){
+			$('.s-green').css('background-color','#48cdae');
+			$('.s-green').css('color','#fff');
+		},
+		function(){
+			$('.s-green').css('background-color','#fff');
+			$('.s-green').css('color','#48cdae');
+		});	
+		$('.sprice:nth-child(4)').hover(function(){
+			$('.s-orange').css('background-color','#ff8e24');
+			$('.s-orange').css('color','#fff');
+		},
+		function(){
+			$('.s-orange').css('background-color','#fff');
+			$('.s-orange').css('color','#ff8e24');
+		});
+	});

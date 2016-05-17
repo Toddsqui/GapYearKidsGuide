@@ -58,6 +58,14 @@ a, a:hover, a:focus, a:active, a:visited {
   text-decoration: underline;
 }
 
+#consultation{
+  color: black;
+}
+
+#consultation:hover{
+    color: #E74C3C;
+}
+
 /* ========================
 Containers
 ======================== */
